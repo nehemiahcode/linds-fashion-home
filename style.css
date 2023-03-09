@@ -369,6 +369,15 @@ footer.active {
     padding-top: 10px;
     border-bottom: 2px solid rgb(255, 255, 255);
 }
+#text4::after {
+    content: "";
+    display: block;
+    width:70px;
+    padding-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
 #text2::after {
     content: "";
     display: block;
