@@ -633,7 +633,6 @@ textarea {
     padding-left: 20px; 
 } */
 #myBtn {
-    visibility: hidden;
     position: fixed;
     bottom: 35px;
     right:35px;
