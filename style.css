@@ -532,8 +532,9 @@ textarea {
     margin-left: 10px;
 }
 .submit_btn2:hover {
+    color:black;
     animation: submit2 0.3s linear;
-    background-color: transparent;
+    background-color: white;
 } 
 @keyframes submit2 {
     0% {background-color: skyblue;}
