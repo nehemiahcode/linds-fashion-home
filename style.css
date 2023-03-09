@@ -593,6 +593,7 @@ textarea {
  .icon:hover {
     background-color: white;
     color:black;
+     transition:.4s;
  }
  .icon i {
     display: flex;
