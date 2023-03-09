@@ -252,8 +252,22 @@
      <div class="alert">
       An error ocurred!
      </div>
+    <button type="button" id="myBtn">&#8593;</button>
      
   <script>
+      
+        let myButton = document.getElementById("myBtn");
+        window.onscroll = function() {
+          if (document.body.scrollTop < 20 || document.documentElement.scrollTop < 20) {
+            myButton.style.display = "block";
+          }else {
+            myButton.style.display = "none";
+          }
+        }
+        myButton.addEventListener("click", function() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        })
         
          const input = document.getElementById("input");
          const input2 = document.getElementById("input2");
