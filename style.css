@@ -155,7 +155,6 @@ header ul li a:hover::before {
     height:calc(100vh - 60px);
     /* padding:40px; */
     padding-left: 30px;
-    padding-bottom: 40px;
     border: 1px solid black;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
