@@ -252,6 +252,7 @@ header ul li a:hover::before {
         float:right;
     }
     .info {
+        padding:top:15px;
         display: block;
         font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         font-weight: 100;
