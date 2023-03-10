@@ -352,7 +352,7 @@ footer.active {
     margin-right:40%;
     border-bottom: 2px solid red;
 } */
-#text1, #text2, #text3, #text4 {
+#text1, #text2, #text3{
     font-weight: 500;
     font-size: 25px;
     padding-top: 10px;
@@ -480,8 +480,6 @@ input[type="text"], input[type="email"] {
     background: transparent;
     margin-left: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding-left:10px;
-    padding-top:5px;
 }
 textarea {
     border-bottom: 2px solid black;
@@ -489,8 +487,6 @@ textarea {
     width:250px;
     height:100px;
     resize: none;
-    margin-left: 10px;
-     padding-left:10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .col {
