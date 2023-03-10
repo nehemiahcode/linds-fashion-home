@@ -166,7 +166,7 @@ header ul li a:hover::before {
     }
     header ul {
         gap:70px;
-  
+    }
     /* h1.active {
         filter:blur(5px);
     } */
