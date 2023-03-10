@@ -700,7 +700,7 @@ input[type=text], textarea {
     background: rgba(0, 0, 0, 0.5);
     color:#f1f1f1;
     width:95%;
-    transition: .5s ease;
+    transition: .4s ease;
     opacity: 0;
     color:white;
     padding: 20px;
