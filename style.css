@@ -164,10 +164,7 @@ header ul li a:hover::before {
         font-size: 1.2em;
         color:white;
     }
-    header ul {
-        gap:70px;
-    }
-    /* h1.active {
+  /* h1.active {
         filter:blur(5px);
     } */
     
