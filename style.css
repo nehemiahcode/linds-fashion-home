@@ -7,7 +7,7 @@
 body,html {
     background-color: rgba(22, 21, 21,0.5);
     color:white;
-    height:100vh;
+    height:100%;
     width:100%;
     overflow-x: hidden;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
