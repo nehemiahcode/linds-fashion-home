@@ -360,6 +360,7 @@ footer.active {
 }
 .columns2 p {
     padding-left:10px;
+}
 #text3 {
     color:white;
 }
@@ -490,7 +491,6 @@ textarea {
     resize: none;
     margin-left: 10px;
      padding-left:10px;
-    padding-top:5px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .col {
