@@ -233,9 +233,7 @@ header ul li a:hover::before {
         width:90%;
         height:300px;
     }
-    .img2:hover {
-        filter: blur(4px);
-    }
+   
     #main.active {
         filter: blur(3px);
     }
@@ -324,6 +322,7 @@ footer.active {
     width:170px;
     height:50px;
     padding-left: 15px;
+    margin-left:10px;
     outline: none;
     margin-top: 10px;
     background: white;
@@ -353,12 +352,14 @@ footer.active {
     margin-right:40%;
     border-bottom: 2px solid red;
 } */
-#text1, #text2, #text3 {
+#text1, #text2, #text3, #text4 {
     font-weight: 500;
     font-size: 25px;
     padding-top: 10px;
-    padding-left: 5px;
+    padding-left: 10px;
 }
+.columns2 p {
+    padding-left:10px;
 #text3 {
     color:white;
 }
