@@ -570,6 +570,9 @@ textarea {
  footer {
     background-color: black;
     color:white;
+     display:flex;
+     align-items:center;
+     justify-contents:center;
  }
  footer input[type="email"] {
     outline: none;
