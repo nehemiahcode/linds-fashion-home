@@ -173,7 +173,9 @@ header ul li a:hover::before {
     color:rgb(255, 255, 255);
     text-transform: uppercase;
     letter-spacing: 0.2em;
-    padding: 1rem;
+    padding-top: 1rem;
+        padding-botton:1rem;
+        padding-left:1rem;
 }
     /* h1.active {
         filter:blur(5px);
