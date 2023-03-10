@@ -20,7 +20,6 @@
    <img src="Web capture_7-3-2023_93344_www.canva.com.jpeg" width="50px" height="50px">
     <div class="group">
         <ul class="navigate" id="navi">
-        <h2 class="info">LIN'S TOUCH</h2>
           <li><a href="#home" class="active">HOME</a></li>
           <li><a href="#about" class="active">ABOUT</a></li>
           <li><a href="#services" class="active">SERVICES</a></li>
@@ -280,79 +279,4 @@
 
         let myButton = document.querySelector("#myBtn");
         window.onscroll = function() {
-          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-            myButton.style.display = "block";
-          }else {
-            myButton.style.display = "none";
-          }
-        }
-        myButton.addEventListener("click", function() {
-          document.body.scrollTop = 0;
-          document.documentElement.scrollTop = 0;
-        })
-
-
-
-
-         const input = document.getElementById("input");
-         const input2 = document.getElementById("input2");
-         const message = document.getElementById("message");
-       const hireButton = document.querySelector(".submit_btn");
-       const alertMessage2 = document.querySelector(".alert");
-       const alertMessage = document.querySelector(".alert2");
-       hireButton.addEventListener("click", function() {
-         alertMessage2.style.display = "block";
-         input.value = "";
-         input2.value = "";
-         message.value = "";
-          setTimeout(function() {
-              alertMessage2.style.display = "none";
-          }, 1000)
-        });
-
-       
-       
-
-    let header = document.querySelector("#header");
-    let navigate = document.querySelector(".navigate");
-    let toggle = document.querySelector("#toggle");
-     let navi = document.getElementById("navi");
-
-     toggle.onclick = function() {
-    toggle.classList.toggle("active");
-    navigate.classList.toggle("active");
-    document.getElementById("main").classList.toggle("active");
-   }
-    document.onclick = function(e) {
-    if (e.target.id !== "toggle" && e.target.id !== "navi" && e.target.id !== "header") {
-    navigate.classList.remove("active");
-    toggle.classList.remove("active");
-    document.getElementById("main").classList.remove("active");
-   }
- }
-
-
-   const preloader = document.querySelector(".ring-container");
-   setTimeout(function() {
-    preloader.style.display = "none";
-   },000);
- 
-    var showSlides = 0
-        showSlide()
-        function showSlide() {
-            var i;
-            var imageToSlide = document.getElementsByClassName("mySlides");
-            for (i = 0; i < imageToSlide.length; i++) {
-                imageToSlide[i].style.display = "none";
-            }
-            showSlides++;
-            if (showSlides > imageToSlide.length) {
-                showSlides = 1;
-            }
-            imageToSlide[showSlides-1].style.display = "block";
-            setTimeout(showSlide, 2000);
-        }
-  </script>
-
-</body>
-</html>
+          if (document.body.scrollTop > 20 ||
