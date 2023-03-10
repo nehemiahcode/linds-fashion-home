@@ -164,8 +164,10 @@ header ul li a:hover::before {
     header .navigate li a {
         font-size: 1.2em;
         color:white;
-        padding-bottom: 50px;
     }
+     header ul li a {
+        padding: 15px 0;
+      }
     /* h1.active {
         filter:blur(5px);
     } */
