@@ -165,9 +165,16 @@ header ul li a:hover::before {
         font-size: 1.2em;
         color:white;
     }
-     header ul li a {
-        padding: 15px 0;
-      }
+    header ul li a {
+    position: relative;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color:rgb(255, 255, 255);
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    padding: 1rem;
+}
     /* h1.active {
         filter:blur(5px);
     } */
