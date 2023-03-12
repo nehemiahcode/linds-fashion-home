@@ -595,10 +595,7 @@ input[type=text], textarea {
     width:150px;
     color:rgb(255, 255, 255);
  }
- footer {
-    background-color: black;
-    color:white;
- }
+
 
  .columns3 h3 {
     display: flex;
@@ -635,9 +632,7 @@ input[type=text], textarea {
     font-size: 63px;
     color:rgb(209, 128, 22);
  }
- footer {
-    padding-left: 1px;
- }
+
  .columns4 a {
     color:white;
     font-size: 16px;
