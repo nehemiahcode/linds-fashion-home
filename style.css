@@ -783,6 +783,7 @@ textarea ::-webkit-input-placeholder {
 }
 footer input[type=email] {
     border-bottom: 2px solid white;
+    color:white;
 }
 .wrapper .facebook:hover span,
 .wrapper .facebook:hover .tooltip,
